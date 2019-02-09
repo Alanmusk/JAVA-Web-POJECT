@@ -1,0 +1,9 @@
+
+ 1.C标签的循环<c:forEach>的使用？
+ 
+ 2.页面信息传输时，表单要指定信息传输位置（可以是页面路径或servlet路径）。
+ 3.页面信息传输时，表单指定传输位置：
+	1）如果在WebContent(Web内容)目录下，指定位置可以直接写信息跳转页面名称或servlet名称(相对路径)；
+	2）如果不是在WebContent(Web内容)目录下，指定位置必须是绝对路径。如："${pageContext.request.contextPath }/AddUserServlet"
+ 4.Integer.parseInt(s)与Integer.valueOf(s)的区别？
+ 	结论：https://blog.csdn.net/u010502101/article/details/79162587

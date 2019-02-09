@@ -1,0 +1,4 @@
+
+<c:forEach>的使用：
+<c:forEach var="每个变量名字" items="要迭代的list" varStatus="每个对象的状态"begin="循环从哪儿开始" end="循环到哪儿结束" step="循环的步长">
+			</c:forEach>
